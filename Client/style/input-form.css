@@ -13,8 +13,8 @@
 }
 
 body {
-  background-image: url("../bilder/backrounds.png ");
-  background-size: contain;
+  background-image: url("../bilder/bg3.png ");
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: Helvetica;
   display: flex;
@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  margin-left: 45%;
+  align-content: center;
   width: 500px;
 }
 
@@ -46,13 +46,13 @@ h2 {
 }
 
 .form-control label {
-  color: #777;
+  color: #414141;
   display: block;
   margin-bottom: 5px;
 }
 
 .form-control input {
-  background-color: #dddddd;
+  background-color: #ffffff;
   border-radius: 18px;
   border: none;
   display: block;
@@ -61,7 +61,7 @@ h2 {
   height: 60px;
   padding: 12px;
   font-size: 15px;
-  font-family: "League Spartan";
+  font-family: "Helvetica";
   color: black;
 }
 
@@ -97,14 +97,14 @@ h2 {
 
 .form button {
   cursor: pointer;
-  background: rgb(255,160,71);
-  background: linear-gradient(90deg, rgba(255,160,71,1) 0%, rgba(246,0,147,1) 100%);
+  background: rgb(200,252,255);
+  background: linear-gradient(90deg, rgb(200,252,255) 0%, rgb(240,194,222) 100%);
   border: 2px solid;
-  border-radius: 80px;
+  border-radius: 18px;
   height: 70px;
-  color: #fff;
+  color: #414141;
   display: block;
-  font-family: "League Spartan";
+  font-family: Helvetica;
   font-size: 20px;
   padding: 10px;
   margin-top: 20px;
