@@ -25,7 +25,7 @@ function checkEmail(input) {
   }
 }
 
-function checkNames(input,errMsg) {
+function checkNames(input) {
   const re = /^[a-zA-Z]+$/;
   if (re.test(input.value.trim())) {
     showSuccess(input);
