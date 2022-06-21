@@ -10,8 +10,8 @@ let express = require("express");
 let bodyParser = require("body-parser");
 let app     = express();
 const { v4: uuidv4 } = require('uuid');
-const UserRepository = require('./UserRepository');
-const Validation = require('./ValidationService');
+const UserRepository = require('./userrepository');
+const Validation = require('./validationservice');
 
 
 const port = process.env.PORT || 3000;
@@ -34,9 +34,9 @@ app.use(function (req, res, next) {
 
 
 //test uuid
-app.get('/test1', (req, res) => {
+app.get('/test1', (res) => {
     const id = uuidv4();
-    res.send(id);
+    console.log("hello")
 });
 
 // necessary for posting data

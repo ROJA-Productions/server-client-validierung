@@ -1,5 +1,5 @@
 // Validate form input elements
-const validateLib = require('./ValidationLib');
+const validateLib = require('./validationlib');
 
 /**
  * Validate User
